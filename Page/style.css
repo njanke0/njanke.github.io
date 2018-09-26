@@ -1,0 +1,100 @@
+
+body {
+	color: #666666;
+	background-color: #f9f8f6;
+	background-position: center;
+	font-family: Georgia, Times, serif;
+	margin: 10px;
+}
+header {
+	height: 160px;
+	background-image: url("background.jpg");
+}
+h1 {
+	text-indent: -9999px;
+	width: 940px;
+	height: 130px;
+	margin: 0px;
+}
+table, th, td {
+	border: 1px dark-green;
+	padding: 40px;
+	padding-right: 60px;
+	padding-left: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4CAF50;
+	color: white;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+nav {
+	clear: both;
+	color: #ffffff;
+	background-color: gray;
+	height: 40px;
+}
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 30px;
+}
+nav li {
+	display: inline;
+	margin-right: 40px;
+}
+nav li a {
+	color: Blue;}
+nav li a:hover, nav li a.current {
+	color: White;
+}
+#playlist li {
+	display: inline-block;
+}
+#playlist {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+#userInput {
+	display: right;
+	margin-left: 400px;
+	margin-right: auto;
+}
+#userInput li {
+	display: inline-block;
+}
+#bio img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height: 350%;
+
+}
+
+a {
+	color: #de6581;
+	text-decoration: none;
+}
+h1, h2, h3 {
+	font-weight: normal;
+}
+h2 {
+	margin: 10px 0px 5px 0px;
+	padding: 0px;
+}
+h3 {
+	margin: 0px 0px 10px 0px;
+	color: #de6581;
+}
+
+
+
