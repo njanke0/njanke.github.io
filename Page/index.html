@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+	<!-- This is what a comment looks like -->
+	<head>
+		<title>todo Home</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Header one</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html" class="current">Home</a></li>
+						<li><a href="page2.html">Photo Gallery</a></li>
+						<li><a href="page3.html">About Me</a></li>
+					</ul>
+				</nav>
+			<h2>Current Schedule</h2>
+				<table id=toDo style="width=100%">
+					<tr>
+						<th id=desc>Description</th>
+						<th id=cat>Category</th>
+						<th id=timeAdd>Time Added</th>
+						<th id=timeDue>Time Due</th>
+						<th id=complete>Completion</th>
+						<th id=remove>Remove</th>
+					</tr>
+					<tr>
+						<td>Do laundry</td>
+						<td>Chores</td>
+						<td>9/22 @1100</td>
+						<td>10/10 @1200 Due</td>
+						<td><button type="button">Complete</button>
+						<td><button type="button">Remove Me!</button>
+					</tr>
+					<tr>
+						<td>Get milk</td>
+						<td>Shopping</td>
+						<td>10/09 @0900</td>
+						<td>10/10 @1000</td>
+						<td><button type="button">Complete</button>
+						<td><button type="button">Remove Me!</button>
+					</tr>
+					<tr>
+						<td>Get car fixed</td>
+						<td>Auto</td>
+						<td>1/10 @0111</td>
+						<td>1/21 @1200</td>
+						<td><button type="button">Complete</button>
+						<td><button type="button">Remove Me!</button>					
+					</tr>
+					<tr>
+						<td>Do web homework</td>
+						<td>Homework</td>
+						<td>2/2 @1200</td>
+						<td>2/4 @1200</td>
+						<td><button type="button">Complete</button>
+						<td><button type="button">Remove Me!</button>					
+					</tr>
+				</table>
+			<div>
+				<ul id=userInput>
+					<li> <input id=inDesc type="text" value="Description"/><br/></li>
+					<li> <input id=inCat type="text" value="Category"/><br/></li>
+					<li> <input id=inDue type="text" value="Due Date"/><br/></li>
+					<li> <button id=inputbutton type="button">Commit</button></li>
+
+				</ul>
+			</div>
+			<script type="text/javascript" src='driver.js'> </script>
+	</body>
+</html>
